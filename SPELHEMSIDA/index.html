@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulär</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1 class="header">Gissningsspel</h1>
+        
+      
+      <div class="ruta">
+
+          <form id="form" onsubmit="stop()"  method="post">
+                
+            <div class="card">
+              <p id="output">Skriv en gissning mellan 1-100</p>
+              <input id="input" type="text"  placeholder="Gissning">
+              <button type="reset submit" id="knapp">Skicka svar</button>
+              <button id="omstart">Starta om</button>
+              </div>
+          </form>
+            
+        </div>
+    </div>
+
+
+	<script src="java.js"></script>
+  </body>
+</html>

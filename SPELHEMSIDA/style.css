@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+
+.wrapper{
+    background-color: rgba(215, 172, 172, 0.869);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.ruta{
+    background-color:  rgb(215, 172, 172);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px;
+    margin: 10px;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    justify-content: center;
+}
+.header{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 10px;
+}
